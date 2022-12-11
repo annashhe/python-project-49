@@ -13,6 +13,9 @@ publish:
 package-install:
 	python3 -m pip install --user dist/*.whl # Для установки пакета из операционной системы. Её необходимо запускать из корневой директории проекта.
 
+package-reinstall:
+	python3 -m pip install --user --force-reinstall dist/*.whl
+
 lint:
 	poetry run flake8 brain_games
 
