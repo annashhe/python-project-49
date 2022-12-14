@@ -3,7 +3,38 @@
 <a href="https://codeclimate.com/github/annashhe/python-project-49/maintainability"><img src="https://api.codeclimate.com/v1/badges/381f426c0a0eea131cc6/maintainability" /></a>
 <a href="https://codeclimate.com/github/annashhe/python-project-49/test_coverage"><img src="https://api.codeclimate.com/v1/badges/381f426c0a0eea131cc6/test_coverage" /></a>
 
-asciinema
+# Brain games
+
+Hexlet educational project of the first level called "Brain Games", which includes five mathematical text games.
+
+## `Usage`
+* Even number: `brain-even`
+* Calculate the expression: `brain-calc`
+* Greatest common divisor: `brain-gcd`
+* Guess missing number: `brain-progression`
+* Prime number: `brain-prime`
+
+### Requirements
+Python 3.8.10 or above
+
+### Links
+
+This project was built using these tools:
+
+| Tool                                                                     | Description                                                |
+|--------------------------------------------------------------------------|------------------------------------------------------------|
+| [poetry](https://poetry.eustace.io/)                                     | "Makes Python dependency management and packaging easier"  |
+
+
+### Install
+```
+git clone https://github.com/annashhe/python-project-49
+cd python-project-49
+make package-install
+```
+---
+
+## asciinema
 
 brain-even
 [![asciicast](https://asciinema.org/a/0Ufs1whbYtN5la9uFZHYoQv9Y.svg)](https://asciinema.org/a/0Ufs1whbYtN5la9uFZHYoQv9Y)
