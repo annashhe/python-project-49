@@ -7,3 +7,6 @@ asciinema
 
 brain-even
 <a href="https://asciinema.org/a/0Ufs1whbYtN5la9uFZHYoQv9Y" target="_blank"><img src="https://asciinema.org/a/0Ufs1whbYtN5la9uFZHYoQv9Y.svg" /></a>
+
+brain-calc
+[![asciicast](https://asciinema.org/a/Nr0yX4ghQau9yM0vOqFXrvKFJ.svg)](https://asciinema.org/a/Nr0yX4ghQau9yM0vOqFXrvKFJ)
