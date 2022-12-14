@@ -6,10 +6,13 @@
 asciinema
 
 brain-even
-<a href="https://asciinema.org/a/0Ufs1whbYtN5la9uFZHYoQv9Y" target="_blank"><img src="https://asciinema.org/a/0Ufs1whbYtN5la9uFZHYoQv9Y.svg" /></a>
+[![asciicast](https://asciinema.org/a/0Ufs1whbYtN5la9uFZHYoQv9Y.svg)](https://asciinema.org/a/0Ufs1whbYtN5la9uFZHYoQv9Y)
 
 brain-calc
 [![asciicast](https://asciinema.org/a/Nr0yX4ghQau9yM0vOqFXrvKFJ.svg)](https://asciinema.org/a/Nr0yX4ghQau9yM0vOqFXrvKFJ)
 
 brain-gcd
-<script id="asciicast-otWYTMx7LemY0xcJ3ozOcFnmr" src="https://asciinema.org/a/otWYTMx7LemY0xcJ3ozOcFnmr.js" async></script>
+[![asciicast](https://asciinema.org/a/otWYTMx7LemY0xcJ3ozOcFnmr.svg)](https://asciinema.org/a/otWYTMx7LemY0xcJ3ozOcFnmr)
+
+brain-progression
+[![asciicast](https://asciinema.org/a/DUnTdgn6W6Hv2UF1vq6LyJO1B.svg)](https://asciinema.org/a/DUnTdgn6W6Hv2UF1vq6LyJO1B)
