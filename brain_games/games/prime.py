@@ -2,7 +2,7 @@ from random import randint
 
 
 task = 'Answer "yes" if given number is prime. Otherwise answer "no".'
-MAX_NUMBER = 100 #maximum number
+MAX_NUMBER = 100  # maximum number
 
 
 def generate_question_and_get_answer():

@@ -2,7 +2,7 @@ import prompt
 from brain_games.cli import welcome_user
 
 
-ROUNDS = 3 #number of rounds
+ROUNDS = 3  # number of rounds
 
 
 def answer_comparison(game):

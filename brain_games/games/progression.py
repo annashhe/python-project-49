@@ -2,15 +2,15 @@ from random import randint
 
 
 task = 'What number is missing in the progression?'
-MAX_STEP = 100 #maximum step
-SET = 10 #number of numbers in set
-MAX_NUMBER = 50 #maximum number to start list with
+MAX_STEP = 10  # maximum step
+SET = 10  # number of numbers in set
+MAX_NUMBER = 50  # maximum number to start list with
 
 
 def generate_question_and_get_answer():
     first_number = randint(1, MAX_NUMBER)
     step = randint(1, MAX_STEP)
-    missing_index = randint(0, SET-1)
+    missing_index = randint(0, SET - 1)
     i = 0
     random_sentence = ''
     while i < SET:

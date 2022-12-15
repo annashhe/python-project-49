@@ -2,7 +2,7 @@ from random import randint, choice
 
 
 task = 'What is the result of the expression?'
-MAX_NUMBER = 10 #maximum number
+MAX_NUMBER = 10  # maximum number
 
 
 def generate_question_and_get_answer():

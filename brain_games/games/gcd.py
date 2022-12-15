@@ -3,7 +3,7 @@ from random import randint
 
 
 task = 'Find the greatest common divisor of given numbers.'
-MAX_NUMBER = 30 #maximum number
+MAX_NUMBER = 30  # maximum number
 
 
 def generate_question_and_get_answer():
