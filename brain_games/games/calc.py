@@ -2,11 +2,12 @@ from random import randint, choice
 
 
 task = 'What is the result of the expression?'
+MAX_NUMBER = 10 #maximum number
 
 
-def question_answer():
-    number1 = randint(1, 10)
-    number2 = randint(1, 10)
+def generate_question_and_get_answer():
+    number1 = randint(1, MAX_NUMBER)
+    number2 = randint(1, MAX_NUMBER)
     operator = choice(['+', '-', '*'])
     question = f'''Question: {number1} {operator} {number2}'''
     if operator == '+':
