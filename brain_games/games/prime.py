@@ -12,8 +12,13 @@ def generate_question_and_get_answer():
     for n in range(2, number // 2 + 1):
         if (number % n == 0):
             i += 1
+    correct_answer = is_prime(number, i)
+    return question, correct_answer
+
+
+def is_prime(number, i):
     if i > 0:
         correct_answer = 'no'
     else:
         correct_answer = 'yes'
-    return question, correct_answer
+    return correct_answer

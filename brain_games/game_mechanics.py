@@ -5,7 +5,7 @@ from brain_games.cli import welcome_user
 ROUNDS = 3  # number of rounds
 
 
-def answer_comparison(game):
+def compare_answers(game):
     name = welcome_user()
     print(game.task)
     i = 0
