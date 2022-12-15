@@ -14,7 +14,11 @@ def generate_question_and_get_answer():
     i = 0
     random_sentence = ''
     while i < SET:
-        if i != missing_index:
+        if i == 0 and missing_index != 0:
+            next_number = first_number + step
+            random_sentence = random_sentence + str(next_number)
+            first_number = next_number
+        elif i != missing_index:
             next_number = first_number + step
             random_sentence = random_sentence + ' ' + str(next_number)
             first_number = next_number
