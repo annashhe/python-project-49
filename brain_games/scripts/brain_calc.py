@@ -1,10 +1,10 @@
 #!/usr/bin/env python3
-from brain_games.game_mechanics import compare_answers
+from brain_games.game_mechanics import run_game
 from brain_games.games import calc
 
 
 def main():
-    compare_answers(calc)
+    run_game(calc)
 
 
 if __name__ == '__main__':
