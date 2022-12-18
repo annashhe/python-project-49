@@ -4,15 +4,10 @@ import prompt
 ROUNDS = 3  # number of rounds
 
 
-def welcome_user():
+def run_game(game):
     print('Welcome to the Brain Games!')
     name = prompt.string('May I have your name? ')
     print(f'Hello, {name}!')
-    return name
-
-
-def run_game(game):
-    name = welcome_user()
     print(game.TASK)
     round_count = 1
     while round_count <= ROUNDS:

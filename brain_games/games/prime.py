@@ -16,9 +16,7 @@ def generate_question_and_answer():
 
 
 def is_prime(number):
-    count = 0
-    for n in range(2, number // 2 + 1):
-        if (number % n == 0):
-            count += 1
-    if count == 0:
-        return True
+    for divisor in range(2, number // 2 + 1):
+        if number % divisor == 0:
+            return False
+    return True
