@@ -16,4 +16,4 @@ def generate_question_and_answer():
 
 
 def is_even(number):
-    return 1 - number % 2
+    return number % 2 == 0
