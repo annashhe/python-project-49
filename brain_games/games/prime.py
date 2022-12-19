@@ -1,8 +1,8 @@
 from random import randint
 
 
-TASK = 'Answer "yes" if given number is prime. Otherwise answer "no".'
-MAX_NUMBER = 100  # maximum number
+GAME_RULE = 'Answer "yes" if given number is prime. Otherwise answer "no".'
+MAX_NUMBER = 100
 
 
 def generate_question_and_answer():
@@ -16,7 +16,10 @@ def generate_question_and_answer():
 
 
 def is_prime(number):
-    for divisor in range(2, number // 2 + 1):
-        if number % divisor == 0:
-            return False
-    return True
+    if number <= 0:
+        return False
+    else:
+        for divisor in range(2, number // 2 + 1):
+            if number % divisor == 0:
+                return False
+        return True

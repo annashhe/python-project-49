@@ -1,16 +1,16 @@
 import prompt
 
 
-ROUNDS = 3  # number of rounds
+ROUNDS_COUNT = 3  # number of rounds
 
 
 def run_game(game):
     print('Welcome to the Brain Games!')
     name = prompt.string('May I have your name? ')
     print(f'Hello, {name}!')
-    print(game.TASK)
+    print(game.GAME_RULE)
     round_count = 1
-    while round_count <= ROUNDS:
+    while round_count <= ROUNDS_COUNT:
         question, correct_answer = game.generate_question_and_answer()
         print(f'Question: {question}')
         answer = prompt.string('Your answer: ')

@@ -1,8 +1,8 @@
 from random import randint
 
 
-TASK = 'Answer "yes" if the number is even, otherwise answer "no".'
-MAX_NUMBER = 100  # maximum number
+GAME_RULE = 'Answer "yes" if the number is even, otherwise answer "no".'
+MAX_NUMBER = 100
 
 
 def generate_question_and_answer():

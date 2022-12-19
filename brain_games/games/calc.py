@@ -1,8 +1,8 @@
 from random import randint, choice
 
 
-TASK = 'What is the result of the expression?'
-MAX_NUMBER = 10  # maximum number
+GAME_RULE = 'What is the result of the expression?'
+MAX_NUMBER = 10
 
 
 def generate_question_and_answer():

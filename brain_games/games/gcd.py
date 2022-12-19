@@ -2,8 +2,8 @@ from math import gcd
 from random import randint
 
 
-TASK = 'Find the greatest common divisor of given numbers.'
-MAX_NUMBER = 30  # maximum number
+GAME_RULE = 'Find the greatest common divisor of given numbers.'
+MAX_NUMBER = 30
 
 
 def generate_question_and_answer():

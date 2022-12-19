@@ -1,9 +1,9 @@
 from random import randint
 
 
-TASK = 'What number is missing in the progression?'
-MAX_STEP = 10  # maximum step
-LENGTH = 10  # number of numbers in set
+GAME_RULE = 'What number is missing in the progression?'
+MAX_STEP = 10
+LENGTH = 10  # number of numbers in progression
 MAX_NUMBER = 50  # maximum number to start list with
 
 
